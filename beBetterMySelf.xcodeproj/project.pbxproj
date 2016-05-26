@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824E91391CA94F13007ED752 /* XmTodayPlansTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91381CA94F13007ED752 /* XmTodayPlansTableVC.m */; };
+		824E913C1CA95B6F007ED752 /* XmAddPlansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E913B1CA95B6F007ED752 /* XmAddPlansViewController.m */; };
+		824E91401CA96413007ED752 /* XmSqlite3Dao.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E913F1CA96413007ED752 /* XmSqlite3Dao.m */; };
+		824E91431CA96AAA007ED752 /* XmDataBaseInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91421CA96AAA007ED752 /* XmDataBaseInit.m */; };
+		824E91451CA974F7007ED752 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E91441CA974F7007ED752 /* libsqlite3.0.tbd */; };
+		824E91491CAAA675007ED752 /* XmTodayPlansService.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91481CAAA675007ED752 /* XmTodayPlansService.m */; };
+		824E914D1CAAAEEE007ED752 /* DailyPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E914C1CAAAEEE007ED752 /* DailyPlan.m */; };
+		824E91501CAAAF02007ED752 /* PlanRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E914F1CAAAF02007ED752 /* PlanRoute.m */; };
+		824E91531CAAC587007ED752 /* XmUpdatePlansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91521CAAC587007ED752 /* XmUpdatePlansViewController.m */; };
+		824E91561CABFB05007ED752 /* XmAddPlansPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91551CABFB05007ED752 /* XmAddPlansPresentationViewController.m */; };
+		824E91591CAC1BAA007ED752 /* XmDateAndCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 824E91581CAC1BAA007ED752 /* XmDateAndCalendar.m */; };
 		82B38D511C789B1E0073AC2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B38D501C789B1E0073AC2F /* main.m */; };
 		82B38D541C789B1E0073AC2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B38D531C789B1E0073AC2F /* AppDelegate.m */; };
 		82B38D571C789B1E0073AC2F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B38D561C789B1E0073AC2F /* FirstViewController.m */; };
@@ -36,6 +47,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		824E91371CA94F13007ED752 /* XmTodayPlansTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmTodayPlansTableVC.h; sourceTree = "<group>"; };
+		824E91381CA94F13007ED752 /* XmTodayPlansTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmTodayPlansTableVC.m; sourceTree = "<group>"; };
+		824E913A1CA95B6F007ED752 /* XmAddPlansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmAddPlansViewController.h; sourceTree = "<group>"; };
+		824E913B1CA95B6F007ED752 /* XmAddPlansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmAddPlansViewController.m; sourceTree = "<group>"; };
+		824E913E1CA96413007ED752 /* XmSqlite3Dao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmSqlite3Dao.h; sourceTree = "<group>"; };
+		824E913F1CA96413007ED752 /* XmSqlite3Dao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmSqlite3Dao.m; sourceTree = "<group>"; };
+		824E91411CA96AA9007ED752 /* XmDataBaseInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmDataBaseInit.h; sourceTree = "<group>"; };
+		824E91421CA96AAA007ED752 /* XmDataBaseInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmDataBaseInit.m; sourceTree = "<group>"; };
+		824E91441CA974F7007ED752 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		824E91471CAAA675007ED752 /* XmTodayPlansService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmTodayPlansService.h; sourceTree = "<group>"; };
+		824E91481CAAA675007ED752 /* XmTodayPlansService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmTodayPlansService.m; sourceTree = "<group>"; };
+		824E914B1CAAAEEE007ED752 /* DailyPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyPlan.h; sourceTree = "<group>"; };
+		824E914C1CAAAEEE007ED752 /* DailyPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyPlan.m; sourceTree = "<group>"; };
+		824E914E1CAAAF02007ED752 /* PlanRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRoute.h; sourceTree = "<group>"; };
+		824E914F1CAAAF02007ED752 /* PlanRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanRoute.m; sourceTree = "<group>"; };
+		824E91511CAAC587007ED752 /* XmUpdatePlansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmUpdatePlansViewController.h; sourceTree = "<group>"; };
+		824E91521CAAC587007ED752 /* XmUpdatePlansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmUpdatePlansViewController.m; sourceTree = "<group>"; };
+		824E91541CABFB05007ED752 /* XmAddPlansPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmAddPlansPresentationViewController.h; sourceTree = "<group>"; };
+		824E91551CABFB05007ED752 /* XmAddPlansPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmAddPlansPresentationViewController.m; sourceTree = "<group>"; };
+		824E91571CAC1BAA007ED752 /* XmDateAndCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmDateAndCalendar.h; sourceTree = "<group>"; };
+		824E91581CAC1BAA007ED752 /* XmDateAndCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmDateAndCalendar.m; sourceTree = "<group>"; };
 		82B38D4C1C789B1E0073AC2F /* beBetterMySelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beBetterMySelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B38D501C789B1E0073AC2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82B38D521C789B1E0073AC2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824E91451CA974F7007ED752 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +114,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		824E91361CA94ED5007ED752 /* FirstItem */ = {
+			isa = PBXGroup;
+			children = (
+				824E914A1CAAAED0007ED752 /* XmBeans */,
+				824E91461CAAA63C007ED752 /* XmService */,
+				824E91371CA94F13007ED752 /* XmTodayPlansTableVC.h */,
+				824E91381CA94F13007ED752 /* XmTodayPlansTableVC.m */,
+				824E913A1CA95B6F007ED752 /* XmAddPlansViewController.h */,
+				824E913B1CA95B6F007ED752 /* XmAddPlansViewController.m */,
+				824E91511CAAC587007ED752 /* XmUpdatePlansViewController.h */,
+				824E91521CAAC587007ED752 /* XmUpdatePlansViewController.m */,
+			);
+			name = FirstItem;
+			sourceTree = "<group>";
+		};
+		824E913D1CA963F0007ED752 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				824E913E1CA96413007ED752 /* XmSqlite3Dao.h */,
+				824E913F1CA96413007ED752 /* XmSqlite3Dao.m */,
+				824E91411CA96AA9007ED752 /* XmDataBaseInit.h */,
+				824E91421CA96AAA007ED752 /* XmDataBaseInit.m */,
+				824E91571CAC1BAA007ED752 /* XmDateAndCalendar.h */,
+				824E91581CAC1BAA007ED752 /* XmDateAndCalendar.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		824E91461CAAA63C007ED752 /* XmService */ = {
+			isa = PBXGroup;
+			children = (
+				824E91471CAAA675007ED752 /* XmTodayPlansService.h */,
+				824E91481CAAA675007ED752 /* XmTodayPlansService.m */,
+				824E91541CABFB05007ED752 /* XmAddPlansPresentationViewController.h */,
+				824E91551CABFB05007ED752 /* XmAddPlansPresentationViewController.m */,
+			);
+			name = XmService;
+			sourceTree = "<group>";
+		};
+		824E914A1CAAAED0007ED752 /* XmBeans */ = {
+			isa = PBXGroup;
+			children = (
+				824E914B1CAAAEEE007ED752 /* DailyPlan.h */,
+				824E914C1CAAAEEE007ED752 /* DailyPlan.m */,
+				824E914E1CAAAF02007ED752 /* PlanRoute.h */,
+				824E914F1CAAAF02007ED752 /* PlanRoute.m */,
+			);
+			name = XmBeans;
+			sourceTree = "<group>";
+		};
 		82B38D431C789B1E0073AC2F = {
 			isa = PBXGroup;
 			children = (
+				824E91441CA974F7007ED752 /* libsqlite3.0.tbd */,
 				82B38D4E1C789B1E0073AC2F /* beBetterMySelf */,
 				82B38D6B1C789B1E0073AC2F /* beBetterMySelfTests */,
 				82B38D761C789B1E0073AC2F /* beBetterMySelfUITests */,
@@ -104,6 +188,8 @@
 		82B38D4E1C789B1E0073AC2F /* beBetterMySelf */ = {
 			isa = PBXGroup;
 			children = (
+				824E913D1CA963F0007ED752 /* Utils */,
+				824E91361CA94ED5007ED752 /* FirstItem */,
 				82B38D521C789B1E0073AC2F /* AppDelegate.h */,
 				82B38D531C789B1E0073AC2F /* AppDelegate.m */,
 				82B38D551C789B1E0073AC2F /* FirstViewController.h */,
@@ -278,9 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824E914D1CAAAEEE007ED752 /* DailyPlan.m in Sources */,
 				82B38D5A1C789B1E0073AC2F /* SecondViewController.m in Sources */,
+				824E91501CAAAF02007ED752 /* PlanRoute.m in Sources */,
+				824E91431CA96AAA007ED752 /* XmDataBaseInit.m in Sources */,
 				82B38D541C789B1E0073AC2F /* AppDelegate.m in Sources */,
+				824E91561CABFB05007ED752 /* XmAddPlansPresentationViewController.m in Sources */,
+				824E91591CAC1BAA007ED752 /* XmDateAndCalendar.m in Sources */,
+				824E91391CA94F13007ED752 /* XmTodayPlansTableVC.m in Sources */,
+				824E91491CAAA675007ED752 /* XmTodayPlansService.m in Sources */,
+				824E91401CA96413007ED752 /* XmSqlite3Dao.m in Sources */,
 				82B38D571C789B1E0073AC2F /* FirstViewController.m in Sources */,
+				824E91531CAAC587007ED752 /* XmUpdatePlansViewController.m in Sources */,
+				824E913C1CA95B6F007ED752 /* XmAddPlansViewController.m in Sources */,
 				82B38D511C789B1E0073AC2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,10 +516,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = beBetterMySelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomin.beBetterMySelf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomin.alertAndPopover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -431,10 +531,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = beBetterMySelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomin.beBetterMySelf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomin.alertAndPopover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -505,6 +609,7 @@
 				82B38D7E1C789B1E0073AC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82B38D7F1C789B1E0073AC2F /* Build configuration list for PBXNativeTarget "beBetterMySelfTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +618,7 @@
 				82B38D811C789B1E0073AC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82B38D821C789B1E0073AC2F /* Build configuration list for PBXNativeTarget "beBetterMySelfUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +627,7 @@
 				82B38D841C789B1E0073AC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
